@@ -84,7 +84,12 @@ export default class App extends React.Component {
 
           <circle cx="300" cy="1350" r="2" fill="red"/>
           <VictoryLabel x={300} y={1350} textAnchor="start" verticalAnchor="middle"
-            text={"Victory is awesome.\nThis is (start, middle) anchoring.\nCapisce?"}
+            text={"Victory is awesome.\nThis is (start, middle) anchoring.\nCapisce?"} inline
+          />
+
+          <circle cx="300" cy="1500" r="2" fill="red"/>
+          <VictoryLabel x={300} y={1500} textAnchor="start" verticalAnchor="middle"
+            text={["Parkie-Doo! What happens if I exapnd", "this way beyond my the container."]} inline
           />
         </svg>
       </div>
